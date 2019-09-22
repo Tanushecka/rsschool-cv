@@ -1,10 +1,10 @@
-Tatsiana Mukhina
-tanushecka@tut.by
-Skills:
+# Tatsiana Mukhina
+## tanushecka@tut.by
+## Skills:
 * HTML5
 * CSS3
 * JQuery
-My code example:
+## My code example:
 <?php $_helper = $this->helper('catalog/output'); ?>
 <?php $_product = $this->getProduct(); ?>
 <script type="text/javascript">
@@ -27,4 +27,4 @@ My code example:
                             <span class="h1"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
                             <?php echo $this->getChildHtml('product_type_availability'); ?>
                         </div>
-English level: *Intermediate *
+## English level: *Intermediate *
