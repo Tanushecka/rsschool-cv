@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Tatsiana Mukhina</h1>
+        <h2><a href="mailto:'tanushecka@tut.by'">tanushecka@tut.by</a></h2>
+      </header>
+      <main>
+        <h2>Skills:</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JQuery</li>
+        </ul>
+        <h2>My code example:</h2>
+        <div class="code">
+            <div id="messages_product_view">MessagesBlock</div>
+            <div class="product-view">
+                <div class="product-essential flex-column-reverse flex-sm-row">
+                  <div class="d-flex flex-column-reverse flex-sm-column">
+                    <form action="<?php echo $this->getSubmitUrl($_product, array('_secure' => $this->_isSecure())) ?>" 
+                      method="post" id="">
+                        
+                        <div class="no-display">
+                          <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
+                          <input type="hidden" name="related_product" id="related-products-field" value="" />
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                              <div class="order-1 order-sm-0 product-name col-12 col-md-12 row">
+                                <div class="product-name col-12 col-md-6">
+                                  <span class="h1">Name</span>
+                                </div>
+                              </div>
+                          </div>
+                    </form>
+                  </div>
+              </div>
+            </div>                                
+        </div>
+      </main>
+      <footer>
+        <h2>English level: *Intermediate *</h2>
+      </footer>
+    </div>
+  </body>
+</html>
