@@ -5,6 +5,7 @@
 * CSS3
 * JQuery
 ## My code example:
+```
 <?php $_helper = $this->helper('catalog/output'); ?>
 <?php $_product = $this->getProduct(); ?>
 <script type="text/javascript">
@@ -27,4 +28,5 @@
                             <span class="h1"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
                             <?php echo $this->getChildHtml('product_type_availability'); ?>
                         </div>
+```
 ## English level: *Intermediate *
