@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 main{
-    background: url(assets/images/photos.jpg) no-repeat left top;
+    background: url(photos.jpg) no-repeat left top;
 }
 .code{
     color: #000;
